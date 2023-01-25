@@ -48,9 +48,9 @@ def delete(countries):
         print("There is no country with that code.\n")
 
 def main():
-    countries = {"CA": "Canada",
+    countries = {"CN": "China",
                  "US": "United States",
-                 "MX": "Mexico"}
+                 "DK": "Denmark"}
     
     display_menu()
     while True:        
